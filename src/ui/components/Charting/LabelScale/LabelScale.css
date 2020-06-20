@@ -1,0 +1,18 @@
+.LabelScale {
+    display: flex;
+}
+
+.LabelScale .heat-scale {
+    width: 20px;
+    height: 80%;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.LabelScale .axis-container {
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    
+}

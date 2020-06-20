@@ -1,0 +1,11 @@
+Subject : Input transformation
+template functions
+custom transform functions 
+
+Subject : Data Import, as csv, json, modal presentation ? save datasets
+
+Subject : Import / Export network
+
+
+
+

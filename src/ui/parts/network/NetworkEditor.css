@@ -1,0 +1,64 @@
+.NetworkEditor .action-zone
+{
+    position: absolute;
+}
+
+.NetworkEditor .network-view {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.NetworkEditor .network-view .svg-arrows {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.NetworkEditor .network-view .svg-arrows path {
+    /* fill: rgb(255, 204, 0);
+    stroke: cadetblue; */
+}
+
+.NetworkEditor .network-view .svg-arrows textPath {
+    font-size: 12px;
+}
+
+.NetworkEditor .neuron {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+}
+
+.NetworkEditor .network-view {}
+
+.NetworkEditor .network-view .hidden-layers {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.NetworkEditor .hidden-layers-settings {
+    text-align: center;
+}
+
+.NetworkEditor .hidden-layers-settings .count {
+    margin-right: 5px;
+}
+
+.NetworkEditor .hidden-layers-settings .buttons {
+    margin: 5px;
+}
+
+.NetworkEditor .layer-settings {
+    margin-bottom: 5px;
+}
+
+.NetworkEditor .layer-settings .buttons {}
+
+.NetworkEditor .input-layer .neuron {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

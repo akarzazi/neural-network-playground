@@ -1,0 +1,12 @@
+.DataDrawer2D1 {
+    display: flex;
+}
+
+.DataDrawer2D1 .draw-panel {
+    margin-left: 20px;
+}
+
+.DataDrawer2D1 canvas {
+    cursor: crosshair;
+    border: 1px solid gray;
+}

@@ -1,0 +1,14 @@
+.DataCodeGenerator2D1 .code-area {
+    margin-top: 5px;
+}
+
+.DataCodeGenerator2D1 .code-area .code-edit {
+    border: none;
+    padding: 5px 5px 5px 10px;
+    color:#084fa2;
+}
+
+.DataCodeGenerator2D1 .code-area .code-immutable {
+    color: gray;
+    margin-bottom: 5px;
+}

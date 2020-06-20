@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "module": "commonjs",
+    "target": "es2019",
+    "jsx": "react"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

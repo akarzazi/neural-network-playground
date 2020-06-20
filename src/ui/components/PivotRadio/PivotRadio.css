@@ -1,0 +1,71 @@
+.pivot-radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    margin: 0px 15px 0px 0;
+    cursor: pointer;
+    /* font-size: 22px; */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+
+.pivot-radio-item input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.pivot-radio-item .radiobtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* On mouse-over, add a grey background color */
+
+/* .pivot-radio-item:hover input~.radiobtn {
+    background-color: #ccc;
+} */
+
+/* When the radio button is checked, add a blue background */
+
+.pivot-radio-item input:checked~.radiobtn {
+    border-bottom: 1px solid #333;
+}
+
+.pivot-radio-item input:checked~.radio-text {
+   font-weight: bold;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+/* .pivot-radio-item .radiobtn:after {
+    content: "";
+    position: absolute;
+    display: none;
+} */
+
+/* Show the indicator (dot/circle) when checked */
+
+.pivot-radio-item input:checked~.radiobtn:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+
+/* .pivot-radio-item .radiobtn:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+} */

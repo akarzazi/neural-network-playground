@@ -1,0 +1,11 @@
+.MinMaxInput input[type="number"]{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 70px;
+    padding: 4px;
+}
+
+.MinMaxInput .label-entry
+{
+    /* font-weight: bold; */
+}
